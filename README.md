@@ -4,7 +4,7 @@
 This is my personal resume website built using **HTML** and **CSS**. It showcases my education, skills, and projects in a clean, responsive format. The goal of this project is to demonstrate my frontend skills and provide a professional online presence.
 
 ## 🌐 Live Demo
-[🔗 View Website on GitHub Pages](https://yourusername.github.io/your-resume-repo-name)
+[🔗 View Website on GitHub Pages](https://kelvinpham2710.github.io/Personal-Resume-Website/)
 
 ---
 
