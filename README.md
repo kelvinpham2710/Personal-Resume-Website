@@ -13,7 +13,6 @@ This is my personal resume website built using **HTML** and **CSS**. It showcase
 - Responsive design for mobile and desktop
 - Clean layout with modern styling
 - Contact links (email, LinkedIn, GitHub)
-- Downloadable resume support (optional)
 - Sections:
   - Summary
   - Education
