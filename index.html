@@ -1,60 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelvin Pham - Resume</title>
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin Pham – Resume</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <main class="container">
+    <header>
+      <h1>Kelvin Quan Pham</h1>
+      <p>
+        Owings Mills, MD |
+        <a href="tel:+14439707199">(443) 970-7199</a> |
+        <a href="mailto:kelvinpham2710@gmail.com">kelvinpham2710@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/kelvin-pham-775407256" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://github.com/kelvinpham2710" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </header>
 
-    <div class ="container">
-        <h1>Kelvin Quan Pham</h1>
-        <p>
-            Owings Mills, MD | (443) 970-7199 | 
-            <a href="mailto:kelvinpham2710@gmail.com">kelvinpham2710@gmail.com</a> | 
-            <a href="https://linkedin.com/in/kelvin-pham-775407256" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/kelvinpham2710" target="_blank">GitHub</a>
-        </p>
+    <section id="summary" class="section" aria-labelledby="summary-title">
+      <h2 id="summary-title">Summary</h2>
+      <p>
+        Information Systems student with hands-on experience building Java and web projects.
+        Strong foundation in algorithms, data structures, and OOP; fluent in English and Vietnamese.
+      </p>
+    </section>
 
-        <div class="section">
-            <h2>Education</h2>
-            <ul class="education-info">
-                <li><strong>University of Maryland, Baltimore County (UMBC)</strong> - B.S. in Information Systems (Expected 2026)</li>
-                <li><strong>Howard Community College</strong> - Computer Science, 2019-2023</li>
-            </ul>
-        </div>
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <h2 id="skills-title">Technical Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Java, Python, C++, HTML, CSS, PHP, JavaScript</li>
+        <li><strong>Tools &amp; IDEs:</strong> GitHub, Visual Studio Code, Eclipse</li>
+        <li><strong>Concepts:</strong> Algorithms, Data Structures, Object-Oriented Programming (OOP)</li>
+        <li><strong>Soft Skills:</strong> Communication, Teamwork, Time Management, Customer Service</li>
+        <li><strong>Languages:</strong> English (Fluent), Vietnamese (Fluent)</li>
+      </ul>
+    </section>
 
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript, HTML, CSS, PHP</li>
-                <li><strong>Concepts:</strong> Algorithms, Data Structures, Object-Oriented Programming</li>
-                <li><strong>Soft skills:</strong> Communication, Teamwork, Time Management, Communication, Customer Service</li>
-                <li><strong>Languages Spoken:</strong> English, Vietnamese</li>
-            </ul>
-        </div>
+    <section id="education" class="section" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <ul class="education-list">
+        <li>
+          <strong>University of Maryland, Baltimore County</strong> — Bachelor of Science in Information Systems
+          <div class="meta">Baltimore, MD | Expected: Dec. 2026</div>
+        </li>
+        <li>
+          <strong>Howard Community College</strong> — Computer Science
+          <div class="meta">Columbia, MD | Aug. 2019 – Dec. 2023</div>
+        </li>
+      </ul>
+    </section>
 
-        <div class="section">
-            <h2>Projects</h2>
-                 <ul class="project-list">
-                    <li>
-                        <strong>Personal Resume Website</strong><br>
-                        A responsive personal resume web page built using HTML, CSS, and hosted on GitHub Pages. Highlights skills in frontend design and web presentation. Includes sections for contact info, summary, education, skills, and projects.
-                    </li>
-                    <li>
-                        <strong>Java Inventory & Customer Management System</strong><br>
-                        Console-based Java application to manage and analyze TV and customer data using Sets, Maps, and Binary Trees. Implemented file I/O and data structures like HashMap, TreeSet, MaxHeap, and BinaryTree.
-                    </li>
-                 </ul>
-        </div>
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
 
-    </div>
+      <article class="job">
+        <header class="job-header">
+          <div>
+            <h3 class="job-title">Server</h3>
+            <div class="company">Sushi Ya Japanese Restaurant</div>
+          </div>
+          <div class="job-meta">Owings Mills, MD | July 2023 – Present</div>
+        </header>
+        <ul>
+          <li>Provided friendly, efficient service to 150+ guests daily, ensuring positive dining experiences.</li>
+          <li>Accurately processed orders and coordinated with kitchen staff to maintain smooth operations.</li>
+          <li>Managed 4–5 tables per shift in a fast-paced environment with attentive service.</li>
+          <li>Upsold menu items and specials, boosting average check totals and guest satisfaction.</li>
+        </ul>
+      </article>
 
+      <article class="job">
+        <header class="job-header">
+          <div>
+            <h3 class="job-title">Barista</h3>
+            <div class="company">Gong Cha</div>
+          </div>
+          <div class="job-meta">Ellicott City, MD | June 2021 – May 2022</div>
+        </header>
+        <ul>
+          <li>Prepared 200+ customized beverages per shift with consistency in a high-volume setting.</li>
+          <li>Processed $2,500+ per shift in cash and digital payments with zero discrepancies.</li>
+          <li>Maintained a clean, welcoming environment, meeting cleanliness and safety standards.</li>
+          <li>Delivered excellent customer service by addressing special requests and resolving concerns promptly.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <ul class="project-list">
+        <li>
+          <strong>Personal Portfolio Website</strong>
+          <ul>
+            <li>Designed and built a responsive resume website using HTML and CSS.</li>
+            <li>Showcases frontend skills in a clean, modern layout; hosted on GitHub Pages.</li>
+            <li>Includes sections for contact, education, skills, and projects.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Inventory &amp; Customer Management System</strong>
+          <ul>
+            <li>Console-based Java system to manage and analyze TV and customer data.</li>
+            <li>Implemented classes for <code>Customer</code>, <code>TV</code>, and <code>TVReturn</code> with file I/O for inventory and transactions.</li>
+            <li>Applied OOP and data structures including <code>HashMap</code>, <code>TreeSet</code>, <code>MaxHeap</code>, and <code>BinaryTree</code>.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="section">
+      <p>
+        <a href="https://www.linkedin.com/in/kelvin-pham-775407256" target="_blank" rel="noopener">linkedin.com/in/kelvin-pham-775407256</a>
+        &nbsp;|&nbsp;
+        <a href="https://github.com/kelvinpham2710" target="_blank" rel="noopener">github.com/kelvinpham2710</a>
+      </p>
+    </footer>
+  </main>
 </body>
-
 </html>
